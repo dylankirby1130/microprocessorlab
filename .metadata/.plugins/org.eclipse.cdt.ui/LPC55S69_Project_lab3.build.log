@@ -1,0 +1,11 @@
+08:54:23 **** Incremental Build of configuration Debug for project LPC55S69_Project_lab3 ****
+make -r -j8 all 
+make[1]: Nothing to be done for 'main-build'.
+Performing post-build steps
+arm-none-eabi-size "LPC55S69_Project_lab3.axf"; # arm-none-eabi-objcopy -v -O binary "LPC55S69_Project_lab3.axf" "LPC55S69_Project_lab3.bin" ; # checksum -p LPC55S69 -d "LPC55S69_Project_lab3.bin";
+   text	   data	    bss	    dec	    hex	filename
+  13952	      8	   8472	  22432	   57a0	LPC55S69_Project_lab3.axf
+ 
+
+08:54:23 Build Finished. 0 errors, 0 warnings. (took 328ms)
+

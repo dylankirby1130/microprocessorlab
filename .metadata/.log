@@ -1,0 +1,565 @@
+!SESSION 2025-09-23 09:11:10.792 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2025-09-23 09:11:45.641
+!MESSAGE Recreating part support. No part support available.
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2025-09-23 09:11:50.840
+!MESSAGE The device 'LPC55S69' (version='1.0.0') from SDK 'SDK_2.x_LPCXpresso55S69' (version='25.06.00', build='epluginsite814 2025-06-27') will be installed.
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-09-23 09:12:38.773
+!MESSAGE Indexed 'Lab3' (28 sources, 98 headers) in 4.15 sec: 8,177 declarations; 25,516 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.crt.log 1 0 2025-09-23 09:16:51.880
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2025-09-23 09:16:51.888
+!MESSAGE RedlinkServer telnet session connected on port 3025->58787 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2025-09-23 09:17:05.608
+!MESSAGE Starting GDB server [ C:/nxp/LinkServer_25.6.131/binaries/crt_emu_cm_redlink, --server, :10989, -msg-port=58789, -g, -mi, -2, -pLPC55S69, -vendor=NXP, --bootromstall, 0x50000040, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/MCUExpresso files/Lab3/Debug, --flash-dir, C:/nxp/LinkServer_25.6.131/binaries/Flash, --flash-dir, C:/MCUExpresso files/.mcuxpressoide_packages_support/LPC55S69_support/Flash, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2025-09-23 09:17:08.182
+!MESSAGE Telnet session connected on port 3330->58801 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug 4 0 2025-09-23 09:17:39.006
+!MESSAGE There is already a running debug session for the launch configuration 'Lab3 LinkServer Debug'.
+
+!ENTRY com.crt.log 1 0 2025-09-23 09:17:51.190
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2025-09-23 09:17:52.198
+!MESSAGE RedlinkServer telnet session connected on port 3025->58805 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2025-09-23 09:17:53.130
+!MESSAGE Starting GDB server [ C:/nxp/LinkServer_25.6.131/binaries/crt_emu_cm_redlink, --server, :10989, -msg-port=58806, -g, -mi, -2, -pLPC55S69, -vendor=NXP, --bootromstall, 0x50000040, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/MCUExpresso files/Lab3/Debug, --flash-dir, C:/nxp/LinkServer_25.6.131/binaries/Flash, --flash-dir, C:/MCUExpresso files/.mcuxpressoide_packages_support/LPC55S69_support/Flash, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2025-09-23 09:17:55.860
+!MESSAGE Telnet session connected on port 3330->58819 @ 127.0.0.1
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2025-09-23 09:19:35.835
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.ImmediateRequestMonitor@6f166aa8): Status ERROR: org.eclipse.cdt.dsf.gdb code=10004 Failed to execute MI command:
+-exec-interrupt
+Error message from debugger back end:
+Stopping Thread 1 failed: T06thread:1; java.lang.Exception: Stopping Thread 1 failed: T06thread:1;' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2025-09-23 09:19:35.835
+!MESSAGE Failed to execute MI command:
+-exec-interrupt
+Error message from debugger back end:
+Stopping Thread 1 failed: T06thread:1;
+!STACK 0
+java.lang.Exception: Stopping Thread 1 failed: T06thread:1;
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2025-09-23 09:19:36.338
+!MESSAGE 19: Could not stop execution from running
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2025-09-23 09:19:36.338
+!MESSAGE 19: Could not stop execution from running
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2025-09-23 09:19:36.338
+!MESSAGE Wire ACK Fault in DAP access
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2025-09-23 09:19:36.338
+!MESSAGE Debugging context: Lab3 LinkServer Debug
+
+!ENTRY com.crt.log 1 0 2025-09-23 09:19:45.879
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2025-09-23 09:19:46.257
+!MESSAGE Composite status
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2025-09-23 09:19:46.257
+!MESSAGE Connection is shut down
+!SUBENTRY 1 org.eclipse.cdt.dsf 4 10005 2025-09-23 09:19:46.257
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.gdb.service.GDBRunControl_7_0_NS$16@7124be8c): Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down' resulted in a rejected execution exception.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2025-09-23 09:19:46.891
+!MESSAGE RedlinkServer telnet session connected on port 3025->58825 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2025-09-23 09:19:47.774
+!MESSAGE Starting GDB server [ C:/nxp/LinkServer_25.6.131/binaries/crt_emu_cm_redlink, --server, :10989, -msg-port=58826, -g, -mi, -2, -pLPC55S69, -vendor=NXP, --bootromstall, 0x50000040, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/MCUExpresso files/Lab3/Debug, --flash-dir, C:/nxp/LinkServer_25.6.131/binaries/Flash, --flash-dir, C:/MCUExpresso files/.mcuxpressoide_packages_support/LPC55S69_support/Flash, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2025-09-23 09:19:50.305
+!MESSAGE Telnet session connected on port 3330->58837 @ 127.0.0.1
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-09-23 09:21:16.271
+!MESSAGE Indexed 'LPC55S69_Project_lab3' (28 sources, 98 headers) in 1.66 sec: 8,177 declarations; 25,516 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.crt.log 1 0 2025-09-23 09:39:12.116
+!MESSAGE 10989 Address already in use: bind
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 4 2025-09-23 09:39:13.549
+!MESSAGE NullPointerException while trying to calculated source lookup path. This can be ignored if it occurs while terminating a debug session. See Bug 500988.
+!STACK 0
+java.lang.NullPointerException: Cannot read the array length because "containers" is null
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:102)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:146)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.getSubstitutionsPaths(GdbSourceLookupDirector.java:72)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.getSubstitutionsPaths(GDBSourceLookup.java:124)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.sourceContainersChanged(GDBSourceLookup.java:139)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant.sourceContainersChangedOnDispatchThread(GdbSourceLookupParticipant.java:120)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant$1.run(GdbSourceLookupParticipant.java:85)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+!ENTRY com.crt.log 1 0 2025-09-23 09:39:14.282
+!MESSAGE Starting GDB server [ C:/nxp/LinkServer_25.6.131/binaries/crt_emu_cm_redlink, --server, :10990, -msg-port=57700, -g, -mi, -2, -pLPC55S69, -vendor=NXP, --bootromstall, 0x50000040, --reset=, -ProbeHandle=1, -CoreIndex=1, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/MCUExpresso files/LPC55S69_Project_lab3/Debug, --flash-dir, C:/nxp/LinkServer_25.6.131/binaries/Flash, --flash-dir, C:/MCUExpresso files/.mcuxpressoide_packages_support/LPC55S69_support/Flash, --telnet, 3331 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2025-09-23 09:39:16.780
+!MESSAGE Telnet session connected on port 3331->57712 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2025-09-23 09:39:23.245
+!MESSAGE 03: Failed on chip setup
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2025-09-23 09:39:23.245
+!MESSAGE 03: Failed on chip setup
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2025-09-23 09:39:23.245
+!MESSAGE Cannot halt processor.
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2025-09-23 09:39:23.245
+!MESSAGE Debugging context: LPC55S69_Project_lab3 LinkServer Debug
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 4 2025-09-23 09:39:46.064
+!MESSAGE NullPointerException while trying to calculated source lookup path. This can be ignored if it occurs while terminating a debug session. See Bug 500988.
+!STACK 0
+java.lang.NullPointerException: Cannot read the array length because "containers" is null
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:102)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:146)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.getSubstitutionsPaths(GdbSourceLookupDirector.java:72)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.getSubstitutionsPaths(GDBSourceLookup.java:124)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.sourceContainersChanged(GDBSourceLookup.java:139)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant.sourceContainersChangedOnDispatchThread(GdbSourceLookupParticipant.java:120)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant$1.run(GdbSourceLookupParticipant.java:85)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+!ENTRY com.nxp.mcuxpresso.core.debug 4 0 2025-09-23 09:39:46.072
+!MESSAGE There is already a running debug session for the launch configuration 'LPC55S69_Project_lab3 LinkServer Debug'.
+
+!ENTRY com.crt.log 4 -1 2025-09-23 09:39:58.042
+!MESSAGE Write failed: 
+
+!STACK 0
+java.lang.Exception: java.io.IOException: Write failed: 
+
+	at com.crt.utils.general.Reporter.log(Reporter.java:592)
+	at com.nxp.mcuxpresso.core.debug.services.MCXTelnetService.shutdown(MCXTelnetService.java:201)
+	at com.nxp.mcuxpresso.core.debug.services.MCXTelnetService.launchesTerminated(MCXTelnetService.java:382)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.run(LaunchManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.notify(LaunchManager.java:257)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:931)
+	at org.eclipse.debug.core.Launch.fireTerminate(Launch.java:479)
+	at org.eclipse.cdt.dsf.debug.model.DsfLaunch.access$1(DsfLaunch.java:1)
+	at org.eclipse.cdt.dsf.debug.model.DsfLaunch.lambda$1(DsfLaunch.java:47)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1226)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1213)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:496)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.IOException: Write failed: 
+
+	at com.nxp.mcuxpresso.core.debug.services.MCXTelnetService.writeToServer(MCXTelnetService.java:574)
+	at com.nxp.mcuxpresso.core.debug.services.MCXTelnetService.shutdown(MCXTelnetService.java:199)
+	... 13 more
+
+!ENTRY com.crt.log 1 0 2025-09-23 09:39:58.043
+!MESSAGE Stream is null in null
+
+!ENTRY org.eclipse.ui.console 4 120 2025-09-23 09:40:07.764
+!MESSAGE Error logged from Console plug-in: 
+!STACK 0
+java.io.IOException: Output Stream is closed
+	at org.eclipse.ui.console.IOConsoleOutputStream.encodedWrite(IOConsoleOutputStream.java:265)
+	at org.eclipse.ui.console.IOConsoleOutputStream.write(IOConsoleOutputStream.java:260)
+	at org.eclipse.ui.console.MessageConsoleStream.print(MessageConsoleStream.java:74)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.console.ConsoleDisplayMgr.print(ConsoleDisplayMgr.java:170)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.console.ConsoleDisplayMgr.println(ConsoleDisplayMgr.java:180)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.console.ConsoleStreamer.handleStream(ConsoleStreamer.java:506)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.console.ConsoleStreamer.bufferReceived(ConsoleStreamer.java:255)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.services.StubServer$ServerNotifier.run(StubServer.java:90)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.services.StubServer$ServerNotifier.notifyBufferReceived(StubServer.java:76)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.services.StubServer.firePacketReceived(StubServer.java:246)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.services.StubServer.dispatcher(StubServer.java:186)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.services.StubServer$1.run(StubServer.java:313)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2025-09-23 09:40:08.018
+!MESSAGE 16: Target error from status-poll
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2025-09-23 09:40:08.018
+!MESSAGE 16: Target error from status-poll
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2025-09-23 09:40:08.018
+!MESSAGE Hardware Transfer Error
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2025-09-23 09:40:08.018
+!MESSAGE Debugging context: Lab3 LinkServer Debug
+
+!ENTRY org.eclipse.ui.console 4 120 2025-09-23 09:40:08.090
+!MESSAGE Error logged from Console plug-in: 
+!STACK 0
+java.io.IOException: Output Stream is closed
+	at org.eclipse.ui.console.IOConsoleOutputStream.encodedWrite(IOConsoleOutputStream.java:265)
+	at org.eclipse.ui.console.IOConsoleOutputStream.write(IOConsoleOutputStream.java:260)
+	at org.eclipse.ui.console.MessageConsoleStream.print(MessageConsoleStream.java:74)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.console.ConsoleDisplayMgr.print(ConsoleDisplayMgr.java:170)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.console.ConsoleDisplayMgr.println(ConsoleDisplayMgr.java:180)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.console.ConsoleStreamer.handleStream(ConsoleStreamer.java:506)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.console.ConsoleStreamer.bufferReceived(ConsoleStreamer.java:255)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.services.StubServer$ServerNotifier.run(StubServer.java:90)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.services.StubServer$ServerNotifier.notifyBufferReceived(StubServer.java:76)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.services.StubServer.firePacketReceived(StubServer.java:246)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.services.StubServer.dispatcher(StubServer.java:186)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.services.StubServer$1.run(StubServer.java:313)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+!ENTRY org.eclipse.ui.console 4 120 2025-09-23 09:40:10.237
+!MESSAGE Error logged from Console plug-in: 
+!STACK 0
+java.io.IOException: Output Stream is closed
+	at org.eclipse.ui.console.IOConsoleOutputStream.encodedWrite(IOConsoleOutputStream.java:265)
+	at org.eclipse.ui.console.IOConsoleOutputStream.write(IOConsoleOutputStream.java:260)
+	at org.eclipse.ui.console.MessageConsoleStream.print(MessageConsoleStream.java:74)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.console.ConsoleDisplayMgr.print(ConsoleDisplayMgr.java:170)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.console.ConsoleDisplayMgr.println(ConsoleDisplayMgr.java:180)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.console.ConsoleStreamer.handleStream(ConsoleStreamer.java:506)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.console.ConsoleStreamer.bufferReceived(ConsoleStreamer.java:255)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.services.StubServer$ServerNotifier.run(StubServer.java:90)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.services.StubServer$ServerNotifier.notifyBufferReceived(StubServer.java:76)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.services.StubServer.firePacketReceived(StubServer.java:246)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.services.StubServer.dispatcher(StubServer.java:186)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.services.StubServer$1.run(StubServer.java:313)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2025-09-23 09:40:13.541
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.gdb.service.GDBRunControl_7_0_NS$16@68dcb1ac): Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2025-09-23 09:40:13.541
+!MESSAGE Connection is shut down
+
+!ENTRY com.crt.log 4 -1 2025-09-23 09:40:13.624
+!MESSAGE Write failed: 
+
+!STACK 0
+java.lang.Exception: java.io.IOException: Write failed: 
+
+	at com.crt.utils.general.Reporter.log(Reporter.java:592)
+	at com.nxp.mcuxpresso.core.debug.services.MCXTelnetService.shutdown(MCXTelnetService.java:201)
+	at com.nxp.mcuxpresso.core.debug.services.MCXTelnetService.launchesTerminated(MCXTelnetService.java:382)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.run(LaunchManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.notify(LaunchManager.java:257)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:931)
+	at org.eclipse.debug.core.Launch.fireTerminate(Launch.java:479)
+	at org.eclipse.cdt.dsf.debug.model.DsfLaunch.access$1(DsfLaunch.java:1)
+	at org.eclipse.cdt.dsf.debug.model.DsfLaunch.lambda$1(DsfLaunch.java:47)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1226)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1213)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:496)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.IOException: Write failed: 
+
+	at com.nxp.mcuxpresso.core.debug.services.MCXTelnetService.writeToServer(MCXTelnetService.java:574)
+	at com.nxp.mcuxpresso.core.debug.services.MCXTelnetService.shutdown(MCXTelnetService.java:199)
+	... 13 more
+
+!ENTRY com.crt.log 1 0 2025-09-23 09:40:14.752
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2025-09-23 09:40:15.766
+!MESSAGE RedlinkServer telnet session connected on port 3025->57716 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2025-09-23 09:40:30.742
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2025-09-23 09:40:31.762
+!MESSAGE RedlinkServer telnet session connected on port 3025->57719 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2025-09-23 09:40:35.687
+!MESSAGE Starting GDB server [ C:/nxp/LinkServer_25.6.131/binaries/crt_emu_cm_redlink, --server, :10990, -msg-port=57720, -g, -mi, -2, -pLPC55S69, -vendor=NXP, --bootromstall, 0x50000040, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/MCUExpresso files/LPC55S69_Project_lab3/Debug, --flash-dir, C:/nxp/LinkServer_25.6.131/binaries/Flash, --flash-dir, C:/MCUExpresso files/.mcuxpressoide_packages_support/LPC55S69_support/Flash, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2025-09-23 09:40:38.410
+!MESSAGE Telnet session connected on port 3330->57733 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2025-09-23 09:42:42.411
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2025-09-23 09:42:43.424
+!MESSAGE RedlinkServer telnet session connected on port 3025->57743 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2025-09-23 09:42:44.673
+!MESSAGE Starting GDB server [ C:/nxp/LinkServer_25.6.131/binaries/crt_emu_cm_redlink, --server, :10990, -msg-port=57744, -g, -mi, -2, -pLPC55S69, -vendor=NXP, --bootromstall, 0x50000040, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/MCUExpresso files/LPC55S69_Project_lab3/Debug, --flash-dir, C:/nxp/LinkServer_25.6.131/binaries/Flash, --flash-dir, C:/MCUExpresso files/.mcuxpressoide_packages_support/LPC55S69_support/Flash, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2025-09-23 09:42:47.438
+!MESSAGE Telnet session connected on port 3330->57757 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2025-09-23 09:51:52.282
+!MESSAGE 16: Target error from status-poll
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2025-09-23 09:51:52.282
+!MESSAGE 16: Target error from status-poll
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2025-09-23 09:51:52.282
+!MESSAGE Hardware Transfer Error
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2025-09-23 09:51:52.282
+!MESSAGE Debugging context: LPC55S69_Project_lab3 LinkServer Debug
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2025-09-23 09:54:27.525
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.ImmediateRequestMonitor@20869fa7): Status ERROR: org.eclipse.cdt.dsf.gdb code=10004 Failed to execute MI command:
+-exec-interrupt
+Error message from debugger back end:
+Stopping Thread 1 failed: T06thread:1; java.lang.Exception: Stopping Thread 1 failed: T06thread:1;' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2025-09-23 09:54:27.525
+!MESSAGE Failed to execute MI command:
+-exec-interrupt
+Error message from debugger back end:
+Stopping Thread 1 failed: T06thread:1;
+!STACK 0
+java.lang.Exception: Stopping Thread 1 failed: T06thread:1;
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2025-09-23 09:54:28.193
+!MESSAGE 19: Could not stop execution from running: Ee(A5). Wire protocol for probe is not initialized
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2025-09-23 09:54:28.194
+!MESSAGE 19: Could not stop execution from running: Ee(A5). Wire protocol for probe is not initialized
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2025-09-23 09:54:28.194
+!MESSAGE Debugging context: LPC55S69_Project_lab3 LinkServer Debug
+
+!ENTRY com.crt.log 1 0 2025-09-23 09:54:31.920
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2025-09-23 09:54:32.936
+!MESSAGE RedlinkServer telnet session connected on port 3025->57805 @ 127.0.0.1
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2025-09-23 09:54:33.364
+!MESSAGE Composite status
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2025-09-23 09:54:33.364
+!MESSAGE Connection is shut down
+!SUBENTRY 1 org.eclipse.cdt.dsf 4 10005 2025-09-23 09:54:33.364
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.gdb.service.GDBRunControl_7_0_NS$16@5751b022): Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down' resulted in a rejected execution exception.
+
+!ENTRY com.crt.log 1 0 2025-09-23 09:54:34.075
+!MESSAGE Starting GDB server [ C:/nxp/LinkServer_25.6.131/binaries/crt_emu_cm_redlink, --server, :10990, -msg-port=57806, -g, -mi, -2, -pLPC55S69, -vendor=NXP, --bootromstall, 0x50000040, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/MCUExpresso files/LPC55S69_Project_lab3/Debug, --flash-dir, C:/nxp/LinkServer_25.6.131/binaries/Flash, --flash-dir, C:/MCUExpresso files/.mcuxpressoide_packages_support/LPC55S69_support/Flash, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2025-09-23 09:54:36.804
+!MESSAGE Telnet session connected on port 3330->57819 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2025-09-23 09:55:22.602
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2025-09-23 09:55:23.615
+!MESSAGE RedlinkServer telnet session connected on port 3025->57822 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2025-09-23 09:55:25.268
+!MESSAGE Starting GDB server [ C:/nxp/LinkServer_25.6.131/binaries/crt_emu_cm_redlink, --server, :10990, -msg-port=57823, -g, -mi, -2, -pLPC55S69, -vendor=NXP, --bootromstall, 0x50000040, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/MCUExpresso files/LPC55S69_Project_lab3/Debug, --flash-dir, C:/nxp/LinkServer_25.6.131/binaries/Flash, --flash-dir, C:/MCUExpresso files/.mcuxpressoide_packages_support/LPC55S69_support/Flash, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2025-09-23 09:55:27.796
+!MESSAGE Telnet session connected on port 3330->57835 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2025-09-23 13:01:31.004
+!MESSAGE 16: Target error from status-poll
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2025-09-23 13:01:31.004
+!MESSAGE 16: Target error from status-poll
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2025-09-23 13:01:31.004
+!MESSAGE Hardware Transfer Error
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2025-09-23 13:01:31.004
+!MESSAGE Debugging context: LPC55S69_Project_lab3 LinkServer Debug
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2025-09-25 13:12:58.323
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.ImmediateRequestMonitor@411b0e56): Status ERROR: org.eclipse.cdt.dsf.gdb code=10004 Failed to execute MI command:
+-exec-interrupt
+Error message from debugger back end:
+Stopping Thread 1 failed: T06thread:1; java.lang.Exception: Stopping Thread 1 failed: T06thread:1;' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2025-09-25 13:12:58.323
+!MESSAGE Failed to execute MI command:
+-exec-interrupt
+Error message from debugger back end:
+Stopping Thread 1 failed: T06thread:1;
+!STACK 0
+java.lang.Exception: Stopping Thread 1 failed: T06thread:1;
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2025-09-25 13:12:58.988
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.gdb.service.GDBRunControl_7_0_NS$16@108f991a): Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2025-09-25 13:12:58.988
+!MESSAGE Connection is shut down
+
+!ENTRY com.crt.log 1 0 2025-09-25 13:12:59.293
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2025-09-25 13:13:00.326
+!MESSAGE RedlinkServer telnet session connected on port 3025->53713 @ 127.0.0.1
+
+!ENTRY org.eclipse.core.jobs 2 2 2025-09-25 13:13:05.448
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.dsf.debug.ui.sourcelookup.DsfSourceDisplayAdapter$LookupJob
+!SESSION 2025-09-30 08:20:10.674 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.jobs 4 2 2025-09-30 08:22:36.625
+!MESSAGE An internal error occurred during: "UI refresh".
+!STACK 0
+org.eclipse.swt.SWTException: Device is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1278)
+	at org.eclipse.swt.widgets.Display.getThread(Display.java:2590)
+	at com.nxp.swtools.common.ui.utils.progress.UIJobHelper.runNowOrInJob(UIJobHelper.java:215)
+	at com.nxp.swtools.validation.engine.internal.ValidationService$DelayedExecutor.cancelPrevJob(ValidationService.java:251)
+	at com.nxp.swtools.validation.engine.internal.ValidationService$DelayedExecutor.runAction(ValidationService.java:226)
+	at com.nxp.swtools.common.utils.runtime.DelayedExecution$1.run(DelayedExecution.java:379)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2025-09-30 08:22:40.340 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-09-30 08:44:24.942
+!MESSAGE Indexed 'Lab4' (26 sources, 95 headers) in 3.38 sec: 7,475 declarations; 23,661 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.crt.log 1 0 2025-09-30 08:44:30.175
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2025-09-30 08:44:30.184
+!MESSAGE RedlinkServer telnet session connected on port 3025->55769 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2025-09-30 08:45:56.007
+!MESSAGE Starting GDB server [ C:/nxp/LinkServer_25.6.131/binaries/crt_emu_cm_redlink, --server, :10989, -msg-port=55775, -g, -mi, -2, -pLPC55S69, -vendor=NXP, --bootromstall, 0x50000040, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/MCUExpresso files/Lab4/Debug, --flash-dir, C:/nxp/LinkServer_25.6.131/binaries/Flash, --flash-dir, C:/MCUExpresso files/.mcuxpressoide_packages_support/LPC55S69_support/Flash, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2025-09-30 08:45:58.604
+!MESSAGE Telnet session connected on port 3330->55786 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2025-09-30 08:46:09.194
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2025-09-30 08:46:10.203
+!MESSAGE RedlinkServer telnet session connected on port 3025->55789 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2025-09-30 08:46:11.158
+!MESSAGE Starting GDB server [ C:/nxp/LinkServer_25.6.131/binaries/crt_emu_cm_redlink, --server, :10989, -msg-port=55790, -g, -mi, -2, -pLPC55S69, -vendor=NXP, --bootromstall, 0x50000040, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/MCUExpresso files/Lab4/Debug, --flash-dir, C:/nxp/LinkServer_25.6.131/binaries/Flash, --flash-dir, C:/MCUExpresso files/.mcuxpressoide_packages_support/LPC55S69_support/Flash, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2025-09-30 08:46:13.734
+!MESSAGE Telnet session connected on port 3330->55802 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2025-09-30 08:53:00.440
+!MESSAGE Starting GDB server [ C:/nxp/LinkServer_25.6.131/binaries/crt_emu_cm_redlink, --server, :10990, -msg-port=55827, -g, -mi, -2, -pLPC55S69, -vendor=NXP, --bootromstall, 0x50000040, --reset=, -ProbeHandle=1, -CoreIndex=1, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/MCUExpresso files/LPC55S69_Project_lab3/Debug, --flash-dir, C:/nxp/LinkServer_25.6.131/binaries/Flash, --flash-dir, C:/MCUExpresso files/.mcuxpressoide_packages_support/LPC55S69_support/Flash, --telnet, 3331 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2025-09-30 08:53:02.955
+!MESSAGE Telnet session connected on port 3331->55838 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2025-09-30 08:53:07.301
+!MESSAGE 03: Failed on chip setup
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2025-09-30 08:53:07.301
+!MESSAGE 03: Failed on chip setup
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2025-09-30 08:53:07.301
+!MESSAGE Cannot halt processor.
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2025-09-30 08:53:07.301
+!MESSAGE Debugging context: LPC55S69_Project_lab3 LinkServer Debug
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2025-09-30 08:53:18.364
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.ImmediateRequestMonitor@754038f8): Status ERROR: org.eclipse.cdt.dsf.gdb code=10003 Given context: (gdb[1].proc[42000].threadGroup[i1],gdb[1].proc[42000].OSthread[1]).thread[1], is already suspended.' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10003 2025-09-30 08:53:18.364
+!MESSAGE Given context: (gdb[1].proc[42000].threadGroup[i1],gdb[1].proc[42000].OSthread[1]).thread[1], is already suspended.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2025-09-30 08:53:20.194
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.ImmediateRequestMonitor@9e4f4d4): Status ERROR: org.eclipse.cdt.dsf.gdb code=10003 Given context: (gdb[1].proc[42000].threadGroup[i1],gdb[1].proc[42000].OSthread[1]).thread[1], is already suspended.' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10003 2025-09-30 08:53:20.195
+!MESSAGE Given context: (gdb[1].proc[42000].threadGroup[i1],gdb[1].proc[42000].OSthread[1]).thread[1], is already suspended.
+
+!ENTRY com.crt.log 4 -1 2025-09-30 08:53:25.726
+!MESSAGE Write failed: 
+
+!STACK 0
+java.lang.Exception: java.io.IOException: Write failed: 
+
+	at com.crt.utils.general.Reporter.log(Reporter.java:592)
+	at com.nxp.mcuxpresso.core.debug.services.MCXTelnetService.shutdown(MCXTelnetService.java:201)
+	at com.nxp.mcuxpresso.core.debug.services.MCXTelnetService.launchesTerminated(MCXTelnetService.java:382)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.run(LaunchManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.notify(LaunchManager.java:257)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:931)
+	at org.eclipse.debug.core.Launch.fireTerminate(Launch.java:479)
+	at org.eclipse.cdt.dsf.debug.model.DsfLaunch.access$1(DsfLaunch.java:1)
+	at org.eclipse.cdt.dsf.debug.model.DsfLaunch.lambda$1(DsfLaunch.java:47)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.run(DebugPlugin.java:1226)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1213)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:496)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.IOException: Write failed: 
+
+	at com.nxp.mcuxpresso.core.debug.services.MCXTelnetService.writeToServer(MCXTelnetService.java:574)
+	at com.nxp.mcuxpresso.core.debug.services.MCXTelnetService.shutdown(MCXTelnetService.java:199)
+	... 13 more
+
+!ENTRY com.crt.log 1 0 2025-09-30 08:53:25.728
+!MESSAGE Stream is null in null
+
+!ENTRY com.nxp.mcuxpresso.core.debug 4 0 2025-09-30 08:53:25.894
+!MESSAGE There is already a running debug session for the launch configuration 'LPC55S69_Project_lab3 LinkServer Debug'.
+
+!ENTRY com.crt.log 1 0 2025-09-30 08:53:46.555
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2025-09-30 08:53:46.557
+!MESSAGE RedlinkServer telnet session connected on port 3025->55858 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2025-09-30 08:53:51.052
+!MESSAGE Starting GDB server [ C:/nxp/LinkServer_25.6.131/binaries/crt_emu_cm_redlink, --server, :10990, -msg-port=55859, -g, -mi, -2, -pLPC55S69, -vendor=NXP, --bootromstall, 0x50000040, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/MCUExpresso files/LPC55S69_Project_lab3/Debug, --flash-dir, C:/nxp/LinkServer_25.6.131/binaries/Flash, --flash-dir, C:/MCUExpresso files/.mcuxpressoide_packages_support/LPC55S69_support/Flash, --telnet, 3331 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2025-09-30 08:53:53.568
+!MESSAGE Telnet session connected on port 3331->55872 @ 127.0.0.1
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2025-09-30 08:54:20.737
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.ImmediateRequestMonitor@e56f2b5): Status ERROR: org.eclipse.cdt.dsf.gdb code=10003 Given context: (gdb[1].proc[42000].threadGroup[i1],gdb[1].proc[42000].OSthread[1]).thread[1], is already suspended.' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10003 2025-09-30 08:54:20.737
+!MESSAGE Given context: (gdb[1].proc[42000].threadGroup[i1],gdb[1].proc[42000].OSthread[1]).thread[1], is already suspended.
+
+!ENTRY com.crt.log 1 0 2025-09-30 08:54:24.034
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2025-09-30 08:54:24.037
+!MESSAGE RedlinkServer telnet session connected on port 3025->55875 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2025-09-30 08:54:24.816
+!MESSAGE Starting GDB server [ C:/nxp/LinkServer_25.6.131/binaries/crt_emu_cm_redlink, --server, :10990, -msg-port=55876, -g, -mi, -2, -pLPC55S69, -vendor=NXP, --bootromstall, 0x50000040, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/MCUExpresso files/LPC55S69_Project_lab3/Debug, --flash-dir, C:/nxp/LinkServer_25.6.131/binaries/Flash, --flash-dir, C:/MCUExpresso files/.mcuxpressoide_packages_support/LPC55S69_support/Flash, --telnet, 3331 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2025-09-30 08:54:27.314
+!MESSAGE Telnet session connected on port 3331->55888 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2025-09-30 08:55:06.821
+!MESSAGE 10989 Address already in use: bind
+
+!ENTRY com.crt.log 1 0 2025-09-30 08:55:06.821
+!MESSAGE 10990 Address already in use: bind
+
+!ENTRY com.crt.log 1 0 2025-09-30 08:55:07.060
+!MESSAGE Starting GDB server [ C:/nxp/LinkServer_25.6.131/binaries/crt_emu_cm_redlink, --server, :10991, -msg-port=55889, -g, -mi, -2, -pLPC55S69, -vendor=NXP, --bootromstall, 0x50000040, --reset=, -ProbeHandle=1, -CoreIndex=1, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/MCUExpresso files/Lab3/Debug, --flash-dir, C:/nxp/LinkServer_25.6.131/binaries/Flash, --flash-dir, C:/MCUExpresso files/.mcuxpressoide_packages_support/LPC55S69_support/Flash, --telnet, 3332 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2025-09-30 08:55:09.613
+!MESSAGE Telnet session connected on port 3332->55901 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2025-09-30 08:55:14.784
+!MESSAGE 03: Failed on chip setup
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2025-09-30 08:55:14.784
+!MESSAGE 03: Failed on chip setup
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2025-09-30 08:55:14.784
+!MESSAGE Cannot halt processor.
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2025-09-30 08:55:14.784
+!MESSAGE Debugging context: Lab3 LinkServer Debug
