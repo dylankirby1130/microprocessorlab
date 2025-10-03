@@ -1,0 +1,8 @@
+C:\MCUExpresso files\lpcxpresso55s69_led_blinky_lpc_cm33_core0\CMSIS/core_cm33.h:2555:22:__NVIC_SetPriority	16	static
+C:\MCUExpresso files\lpcxpresso55s69_led_blinky_lpc_cm33_core0\CMSIS/core_cm33.h:3108:26:SysTick_Config	16	static
+C:\MCUExpresso files\lpcxpresso55s69_led_blinky_lpc_cm33_core0\drivers/fsl_gpio.h:186:20:GPIO_PortSet	24	static
+C:\MCUExpresso files\lpcxpresso55s69_led_blinky_lpc_cm33_core0\drivers/fsl_gpio.h:198:20:GPIO_PortClear	24	static
+C:\MCUExpresso files\lpcxpresso55s69_led_blinky_lpc_cm33_core0\drivers/fsl_iocon.h:182:22:IOCON_PinMuxSet	24	static
+../source/led_blinky.c:12:6:SysTick_Handler	4	static
+../source/led_blinky.c:20:6:SysTick_DelayTicks	16	static
+../source/led_blinky.c:31:5:main	24	static

@@ -1,6 +1,0 @@
-"Task Aware Debugger for GDB" version 25.6.0 (202506250844)
-Copyright 2016-2025 NXP
-==================================
-08:53:25.871 INFO: [ZephyrRTOS] .config file could not be read [C:\MCUExpresso files\LPC55S69_Project_lab3\Debug\.config (The system cannot find the file specified)]
-08:53:25.872 INFO: [TadModel] DSF session ID 4 has started.
-08:53:34.236 INFO: [TadModel] DSF session ID 4 has ended.
